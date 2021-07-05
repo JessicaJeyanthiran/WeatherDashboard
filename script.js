@@ -143,7 +143,6 @@ var display5Day = function(weather){
        var forecastEl=document.createElement("div");
        forecastEl.classList = "card bg-primary text-light m-2";
 
-       //console.log(dailyForecast)
 
        //create date element
        var forecastDate = document.createElement("h5")
@@ -202,7 +201,6 @@ var pastSearchHandler = function(event){
     }
 }
 
-// pastSearch();
 
 cityFormEl.addEventListener("submit", formSumbitHandler);
 pastSearchButtonEl.addEventListener("click", pastSearchHandler);
